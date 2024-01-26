@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BigBag</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style> 
+    body {
+     /* font-family: Arial, sans-serif; */
+     /* line-height: 1.6;  */
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    background-image: url(419075801_122093868314191638_2614867245185218408_n.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+
+     .conteneur
+     {
+        
+        height: 600px;
+        width: 600px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        opacity: 0.9;
+     }
+     h1{
+     text-align: center;
+     padding-top: 10px;
+     color: #333; 
+    font-weight: bold; 
+    font-style: italic;
+    margin-left: 10px;
+    padding-bottom: 30px;
+
+    }
+    .conteneur p{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+     .social-media{
+     /* text-align: left; */
+     /* padding: 2rem 0; */
+     padding-top: 10px;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-bottom: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+     } 
+    .social-media a {
+     text-decoration: none; 
+    color: #333;
+     font-size: 2rem;
+     margin: 0 1rem;
+     transition: color 0.5s ;
+     }
+     .facebook a:hover {
+     color: #007bff;
+     /* background-color: black; */
+     } 
+     .whatsapp a:hover {
+     color: #22cd50;
+     /* background-color: black; */
+     } 
+     .instagram a:hover {
+     color: #ec3030;
+     /* background-color: black; */
+     } 
+
+     .google-maps a:hover {
+     color: #3baf26;
+     /* background-color: black; */
+     } 
+
+    @media (max-width: 768px) {
+        .social-media a {
+            font-size: 1.5rem;
+        }
+    }
+
+     .google-maps a
+     {
+       text-decoration: none; 
+       /* padding-left: 290px; */
+       font-size: 25px;
+       color: #333;
+       transition: color 0.5s ;
+     }
+
+     .google-maps
+     {
+        display: flex;
+     flex-direction: row;
+     justify-content: center;
+     }
+     
+     /* google-maps
+     {
+     
+     } */
+
+     .clique{
+        margin-left: 120px;
+        font-weight: bold;
+        font-family: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+     }
+     .clique img{
+        padding-top: 8px;
+        padding-left: 10px;
+        
+     }
+
+     .myimg
+     {
+        width: 30px;
+     }
+  
+     </style>
+    
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
+     <!-- <script>
+     anime.timeline({loop: true}) .add({ targets: '.social-media a', scale: [0.3, 1], opacity: [0, 1], translateZ: 0, easing: "easeOutExpo", duration: 600, delay: function(el, i) { return 300 + 30 * i; } }).add({ targets: '.social-media a', translateX: [0, -30], opacity: [1, 0], easing: "easeInExpo", duration: 600, delay: function(el, i) { return 300 + 30 * i; } }); 
+    </script> -->
+
+</head>
+<body>
+
+    <div class="conteneur">
+        <h1>Bienvenue dans le site
+            <br> du BIGBAG</h1>
+        <p>Voici nos réseaux sociaux :</p>
+        <div class="social-media">
+            <div class="facebook"> 
+                <a href="https://www.facebook.com/profile.php?id=61555749142083" target="_blank"> 
+                <i class="fab fa-facebook-f"></i>
+                 </a>
+            </div> 
+                <div class="instagram">
+                 <a href="https://www.instagram.com/big_bag_21_dz/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                 </div>
+                 <div class="whatsapp">
+                 <a href="https://api.whatsapp.com/send?phone=%2B213561082951&data=ARDEdvQomZuDQYAxeirY274dxX7my3bpIngKR_Vhzmi7Az88hHl47SnHLOGwCqonZYo-H_l8wvo5WnfYnL3Hj0tKtClrIDh-6cdiVGZpUe1nBz8w7RaWcH9jG1LaOerRgr1gStzcU9WzsbBURL6D1sr05w&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3eA40hfB9J-G23Jo7aC2SVCgTzZ3ilefRxUKwh3EjFIe0TyHF2iHf9IU8" target="_blank"> <i class="fab fa-whatsapp"></i> </a>
+                 </div>
+        </div>
+        <p>Localisation avec Google Maps :  </p>
+        <div class="clique">Cliquez sur cette icon
+            <img class="myimg" src="arrow-turn-down-solid.svg"></img>
+        </div>
+       
+        <div class="google-maps">
+            <a href="https://www.google.com/maps/place/VWJ4%2B6HW,+MEKI+AOUARTILANI,+Skikda+21000/@36.8806348,6.9064216,87m/data=!3m1!1e3!4m6!3m5!1s0x12f1c59db99606e9:0x74f3d45eebcf5477!8m2!3d36.8805843!4d6.9064287!16s%2Fg%2F11fsk0kxvp?entry=ttu" target="_blank">
+                 <i class="fas fa-map-marker-alt map-icon" id="icon"></i> </a>
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
